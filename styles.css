@@ -1,0 +1,63 @@
+styles.css
+/* Typography */
+body {
+    /* Everything is Raleway */
+    font-family: 'Quicksand', sans-serif;
+    }
+/* Except we're using more specific rules to override the headlines */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+    }
+    /* And the "logo" */
+    .navbar-brand {
+        font-family: 'Quicksand';
+        font-size: 45px;
+        font-weight: 1000;
+    }
+    .navbar-brand img {
+        width: 90px;
+        height: 90px;
+    }
+    .navbar-light .navbar-brand {
+        color: rgb(22, 114, 22);
+    }
+
+    .header-image-container {
+        width: 90px;
+        height: 80px;
+        box-sizing: border-box;
+        overflow: hidden;
+        padding-bottom: 40px;
+    }
+
+    .jumbotron {
+        /* background image */
+        background-attachment: fixed;
+        background-image: url(nightswing2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 400px;
+        /* fonts */
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+
+/* The pricing */
+    .pricing {
+        background-color: #181818;
+    }
+    .pricing h1 {
+        font-family: 'Permanent Marker', cursive;
+        color: #cccccc;
+    }
+
+    
+    /* .table {
+        width: 100px;
+        height: 100px;
+    } */
+
+/* The footer */
+    .footer img {
+        width: 100px;
+    }
