@@ -30,7 +30,7 @@
             <a class="nav-item nav-link" href="facts.html">Facts</a>
           </div>
           <div class="navbar-nav ml-auto">
-            <a class="btn btn-outline-info active" href="contact.html" style="border-color: white;">Contact Us</a>
+            <a class="btn btn-outline-info active" href="contact.html">Let's Be Friends</a>
           </div>
         </div>
       </div>
@@ -39,60 +39,41 @@
     <div class="container">
       <div class="row mt-4">
         <div class="col text-center">
-          <h2>ACNH Is Better Than Real Life</h2>
+          <h2>Let's Be Friends</h2>
         </div>
       </div>
-      <div class="row mt-4">
-        <!--Table-->
-        <div class="col-md-8">
-          <div class="container">
-            <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th scope="col"> </th>
-                  <th scope="col">Animal Crossing New Horizon</th>
-                  <th scope="col">Real Life</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Your Home</th>
-                  <td>Island paradise</td>
-                  <td>Not an island paradise</td>
-                </tr>          
-                <tr>
-                  <th scope="row">Your neighbors</th>
-                  <td>Animals who give you presents</td>
-                  <td>Humans you never talk to</td>
-                </tr>
-                <tr>
-                  <th scope="row">Your boss</th>
-                  <td>Raccoon</td>
-                  <td>Human</td>
-                </tr>
-                <tr>
-                  <th scope="row">Fishing</th>
-                  <td>Relaxing</td>
-                  <td>Stinky</td>
-                </tr>
-                <tr>
-                  <th scope="row">Currency</th>
-                  <td>Bells</td>
-                  <td>US Dollars</td>
-                </tr>
-                <tr>
-                  <th scope="row">Presents</th>
-                  <td>Daily from neighbors, friends, and balloons in the sky</td>
-                  <td>On your birthday...maybe</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <!--Game cover image-->
-        <div class="col-md-4 text-center">
-          <img src="acnh_cover.png" style="width: 220px">
-        </div>
+      <div class="container row mt-4">
+        <!--Form-->
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name:</label>
+          </p>
+          <p>
+            <input type="text" name="name" />   
+          </p>
+          <p>
+            <label>Your Dodo Code:</label>
+          </p>
+          <p>
+            <input type="text" name="dodo" />
+          </p>
+          <p>
+            <label>Your Island Name:</label>
+          </p>
+          <p>
+            <input type="text" name="island" />
+          </p>
+          <p>
+            <label>Message:</label>
+          </p>
+          <p>
+            <textarea name="message"></textarea>
+          </p>
+          <p>
+            <button class="btn btn-outline-info active" type="submit">Send</button>
+          </p>
+        </form>
+        
       </div>
     </div>
 
@@ -103,13 +84,11 @@
     <div class="container footer">
       <div class="row my-3">
         <div">
-          <p class="mt-3"><em>By Marg from the Island of Halcyon for educational purposes only.</em></p>
+          <p class="mt-3"><em> <i class="fas fa-couch"></i> By Marg from the Island of Halcyon for educational purposes only.</em></p>
         </div>
       </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

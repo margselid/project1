@@ -1,19 +1,14 @@
 styles.css
-/* Typography */
+/* Fonts */
 body {
-    /* Everything is Raleway */
     font-family: 'Quicksand', sans-serif;
     }
-/* Except we're using more specific rules to override the headlines */
-h1, h2, h3, h4, h5, h6 {
+
+    h1, h2, h3, h4, h5, h6 {
     font-family: 'Quicksand', sans-serif;
     }
-    /* And the "logo" */
-    .navbar-brand {
-        font-family: 'Quicksand';
-        font-size: 45px;
-        font-weight: 1000;
-    }
+
+    /* Navbar */
     .navbar-brand img {
         width: 90px;
         height: 90px;
@@ -30,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
         padding-bottom: 40px;
     }
 
+    /* Jumbotron */
     .jumbotron {
         /* background image */
         background-attachment: fixed;
@@ -37,27 +33,23 @@ h1, h2, h3, h4, h5, h6 {
         background-repeat: no-repeat;
         background-size: cover;
         height: 400px;
+        
         /* fonts */
         color: white;
         text-shadow: 1px 1px 1px black;
     }
 
-/* The pricing */
-    .pricing {
-        background-color: #181818;
-    }
-    .pricing h1 {
-        font-family: 'Permanent Marker', cursive;
-        color: #cccccc;
+    /* Cards */
+    .card {
+        box-shadow: #aeddff 10px 10px;
     }
 
-    
-    /* .table {
-        width: 100px;
-        height: 100px;
+    /* .form-button {
+        background-color: rgb(23, 162, 184);
+        color: white;
+        border-radius: 6px;
     } */
 
-/* The footer */
-    .footer img {
-        width: 100px;
+    .footer {
+        color: #aeddff;
     }
